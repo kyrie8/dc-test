@@ -4,5 +4,10 @@ FROM nginx:latest
 LABEL org.opencontainers.image.authors="kyrie8@github"
 # label == MAINTAINER 作者
 COPY nginx.conf /etc/nginx/nginx.conf
+
 #复制
 COPY dist/ /usr/share/nginx/html
+
+#暴露端口号
+EXPOSE 3000
+
