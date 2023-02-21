@@ -11,7 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="CICD: docker + jenkins + vue3 + ts" />
+  <HelloWorld msg="docker + jenkins + vue3 + ts" />
 </template>
 
 <style scoped>
